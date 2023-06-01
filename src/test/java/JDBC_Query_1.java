@@ -18,6 +18,7 @@ public class JDBC_Query_1 {
             PASSWORD="PI2ZJx@9m^)3";
             */
 
+            // Database access information bilgileri bunlar olmadan database ye ulasamayizüpp
             Connection con = DriverManager.getConnection("jdbc:mysql://194.140.198.209/heallife_hospitaltraining",
                                                          "heallife_hospitaltraininguser",
                                                          "PI2ZJx@9m^)3");
@@ -41,11 +42,7 @@ public class JDBC_Query_1 {
         rs.next();
         System.out.println(rs.getString("name"));
 
-
-
     }
-
-
 }
 
 
